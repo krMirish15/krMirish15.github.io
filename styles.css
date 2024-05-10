@@ -1,0 +1,80 @@
+/*Fonts: https://www.w3schools.com/css/css_font.asp*/
+/*https://www.w3schools.com/cssref/pr_font_weight.php*/
+
+/*Standard styling of anything on the page*/
+body {
+    font-family: Garamond;
+    font-weight: 300;
+    margin: 0 150px 50px;
+    padding: 0 10px 10px 10px;
+    font-size: 16px
+}
+
+/*https://www.w3schools.com/cssref/css3_pr_background.php*/
+/*Background size: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size*/
+
+/*Styling for the homepage (background)*/
+#homepage {
+    background: url("media/home_background.png") lightpink;
+    background-size: 80%;
+    text-align: center;
+}
+
+/*Styling for the main text of each of the pages*/
+.main-text {
+    background: lightblue;
+    border: 3px solid navy;
+}
+
+/*Styling for the background of info page*/
+#infopage {
+    background: #FDFD96;
+    text-align: center;
+}
+
+/*center*/
+
+/*Styling for headers of each page*/
+#header {
+    margin: 0;
+    padding: 0 0 0 0;
+    color: lightblue;
+    text-shadow: 3px 3px 1px lavender;
+    font-family: Lucida Handwriting;
+    text-align: center;
+  }
+
+/*Styling for background of food page*/
+#foodpage {
+    background: #C1E1C1;
+}
+
+/*Styling for titles of each pet food*/
+#foodtext {
+    font-size: 32px;
+}
+
+/*https://www.w3schools.com/css/css3_images.asp*/
+/*https://www.w3schools.com/cssref/css3_pr_filter.php*/
+/*Styling for the food pictures*/
+.foodpics {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+    opacity: 1;
+    filter: brightness(125%);
+}
+
+/*Styling for the background of the birthday page*/
+#birthdaypage {
+    background-color: #FAC898;
+}
+
+/*Styling for the navigation bars for each page*/
+.navbar {
+    text-align: left;
+    border: 3px solid purple;
+    font-style: italic;
+    padding: 0 30px 30px 30px;
+    background: lavender;
+}
