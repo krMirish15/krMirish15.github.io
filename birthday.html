@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Birthday</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--Source to help me use bootstrap properly: https://getbootstrap.com/docs/5.3/content/reboot/-->
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+
+    <body id="birthdaypage">
+        <h1 id="header">Is it Your Pet's Birthday?</h1>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <!--https://www.w3schools.com/tags/tag_select.asp-->
+                        <!--Get info about user's pet name and type-->
+                        <label for="pet">What type of pet do you have?</label>
+                        <select id="pet" name="pet">
+                            <option value="Dog">Dog</option>
+                            <option value="Cat">Cat</option>
+                            <option value="Fish">Fish</option>
+                            <option value="Hamster">Hamster</option>
+                        </select>
+                        <br>
+                        <p id="name-question">What is your pet's name?</p>
+                        <input autocomplete="off" autofocus id="name" placeholder="Name" type="text">
+                        <input type="submit" id="submit_button">
+                    </form>
+                    <br>
+                    <!--HTML Element where message will be added after submit button pressed-->
+                    <p id="message"></p>
+
+                    <!--Creating links to get to other pages in the website (navbar)-->
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="info.html">Info</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="birthday.html">Birthday</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
