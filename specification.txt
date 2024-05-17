@@ -1,0 +1,4 @@
+Javascript: I used Javascript in birthday.html to get info from the user and produce a personalized message.
+Bootstrap: I used Bootstrap to make the pretty table in info.html. Also, I used it to fluidly resize the images in the food.html file
+CSS Properties: font-family, font-weight, text-align, color, font-size
+HTML Tags: <p>, <li>, <a>, <div>, <table>, <thead>, <tbody>, <tr>, <th>, <td>
